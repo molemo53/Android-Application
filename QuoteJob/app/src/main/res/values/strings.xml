@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuoteJob</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="jobid">Job Id</string>
+    <string name="jobName">Job Name</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="price">Price</string>
+    <string name="JobDays">Job number of days</string>
+    <string name="Days">Days of Job</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="exit">Exit</string>
+    <string name="deleteId">Job Id</string>
+    <string name="deleteJobName">Job Name</string>
+    <string name="deleteVehicle">Vehicle</string>
+    <string name="heading">Welcome to Quote Job</string>
+    <string name="newjob">Create New Job</string>
+    <string name="updatejob">Update Job</string>
+    <string name="displayjob">Display Jobs</string>
+    <string name="deletehome">Delete Jobs</string>
+    <string name="delete">Delete</string>
+    <string name="exitdelete">Exit</string>
+    <string name="clearDelete">Clear</string>
+    <string name="jobIdUpdate">Job Id</string>
+    <string name="updateJobName">Job Name</string>
+    <string name="txtupdateVehicle">Vehicle</string>
+    <string name="txtPriceUpdate">Price</string>
+    <string name="txtjobDaysUpdate">Days of Job</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btnclear">Clear</string>
+    <string name="btnExit">Exit</string>
+    <string name="txtAlljobs">All Jobs</string>
+    <string name="Customer">Customer</string>
+    <string name="jobNameLabel">JobName</string>
+
+
+</resources>

@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".PackageProductCreateTabActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Customer"
+        android:id="@+id/textCustomerName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextCustomer"
+        android:layout_alignParentLeft="true"
+        android:inputType="text"
+        android:layout_below="@+id/textCustomerName"
+        android:layout_alignRight="@+id/editTextVehicle"
+        android:layout_alignEnd="@+id/editTextVehicle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/vehicle"
+        android:id="@+id/textVehicle"
+        android:layout_below="@+id/editTextCustomer"
+        android:layout_alignLeft="@+id/textCustomerName"
+        android:layout_alignStart="@+id/textCustomerName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextVehicle"
+        android:layout_below="@+id/textVehicle"
+        android:layout_alignParentLeft="true"
+        android:inputType="text"
+        android:layout_alignRight="@+id/editTextPrice"
+        android:layout_alignEnd="@+id/editTextPrice" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/price"
+        android:id="@+id/textPrice"
+        android:layout_below="@+id/editTextVehicle"
+        android:layout_alignLeft="@+id/textVehicle"
+        android:layout_alignStart="@+id/textVehicle" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPrice"
+        android:layout_below="@+id/textPrice"
+        android:layout_alignParentLeft="true"
+        android:inputType="text"
+        android:layout_toStartOf="@+id/buttonExit"
+        android:layout_alignRight="@+id/editTextJobName"
+        android:layout_alignEnd="@+id/editTextJobName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextJobName"
+        android:inputType="text"
+        android:layout_below="@+id/textJobDays"
+        android:layout_alignParentLeft="true"
+        android:layout_toStartOf="@+id/buttonExit"
+        android:layout_alignRight="@+id/buttonExit"
+        android:layout_alignEnd="@+id/buttonExit" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:id="@+id/buttonSave"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="49dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:id="@+id/buttonExit"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/buttonSave" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/jobNameLabel"
+        android:id="@+id/textJobDays"
+        android:layout_below="@+id/editTextPrice"
+        android:layout_alignRight="@+id/textCustomerName"
+        android:layout_alignEnd="@+id/textCustomerName" />
+
+
+</RelativeLayout>

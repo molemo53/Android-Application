@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".PackageProductCreateTabActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/deleteId"
+        android:id="@+id/textDeleteId"
+        android:layout_marginTop="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/buttonDeleteHome"
+        android:layout_alignEnd="@+id/buttonDeleteHome" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextDeleteId"
+        android:layout_below="@+id/textDeleteId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/deleteJobName"
+        android:id="@+id/textDeleteJobName"
+        android:layout_below="@+id/editTextDeleteId"
+        android:layout_alignLeft="@+id/textDeleteId"
+        android:layout_alignStart="@+id/textDeleteId" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextDeleteJobName"
+        android:layout_below="@+id/textDeleteJobName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/deleteVehicle"
+        android:id="@+id/textDeleteVehicle"
+        android:layout_below="@+id/editTextDeleteJobName"
+        android:layout_alignRight="@+id/buttonDeleteHome"
+        android:layout_alignEnd="@+id/buttonDeleteHome" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:inputType="text"
+        android:layout_below="@+id/textDeleteVehicle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editTextDeleteJobName"
+        android:layout_alignEnd="@+id/editTextDeleteJobName" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:id="@+id/buttonDeleteHome"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exitdelete"
+        android:id="@+id/buttonExit"
+        android:layout_alignTop="@+id/buttonDeleteHome"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="51dp"
+        android:layout_marginEnd="51dp" />
+
+</RelativeLayout>

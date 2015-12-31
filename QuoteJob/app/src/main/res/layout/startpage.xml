@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".PackageProductCreateTabActivity"
+    >
+
+    <TextView
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/heading"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/updatejob"
+        android:id="@+id/buttonUpdateJob"
+        android:layout_below="@+id/buttonDeleteHome"
+        android:layout_alignRight="@+id/buttonDisplayJob"
+        android:layout_alignEnd="@+id/buttonDisplayJob"
+        android:layout_marginTop="45dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newjob"
+        android:id="@+id/buttonNewJOb"
+        android:layout_below="@+id/buttonDeleteHome"
+        android:layout_alignLeft="@+id/buttonDeleteHome"
+        android:layout_alignStart="@+id/buttonDeleteHome" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/displayjob"
+        android:id="@+id/buttonDisplayJob"
+        android:layout_below="@+id/buttonUpdateJob"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deletehome"
+        android:id="@+id/buttonDeleteHome"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/buttonDisplayJob"
+        android:layout_alignStart="@+id/buttonDisplayJob"
+        android:layout_marginTop="53dp" />
+</RelativeLayout>
